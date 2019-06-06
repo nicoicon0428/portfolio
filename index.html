@@ -317,19 +317,19 @@
                     <div class="col-lg-4 col-md-12 mb-4">
 
                             <div class="col-md-4">
-                                <a class="zoom-in" href="img/sample.jpg">
+                                <a class="zoomImg" href="img/sample.jpg">
                                     <img src="img/sample.jpg">
                                 </a>
                             </div>
 
                             <div class="col-md-4">
-                                <a class="zoom-in" href="img/sample.jpg">
+                                <a class="zoomImg" href="img/sample.jpg">
                                     <img src="img/sample.jpg">
                                 </a>
                             </div>
                         
                              <div class="col-md-4">
-                                <a class="zoom-in" href="img/sample.jpg">
+                                <a class="zoomImg" href="img/sample.jpg">
                                     <img src="img/sample.jpg">
                                 </a>
                             </div>
@@ -773,9 +773,8 @@
     <!-- luminous-basic -->
   <script src="css/luminous.min.js"></script>
   <script>
-  // 設定
-  var demoTrigger = document.querySelector('.zoom-in');
-  new Luminous(demoTrigger);
+  var luminousTrigger = document.querySelectorAll('.zoomImg');
+  new LuminousGallery(luminousTrigger);
   </script>
 </body>
 </html>
