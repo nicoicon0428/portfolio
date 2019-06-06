@@ -22,18 +22,8 @@
     }
 }
 
-.top-nav-collapse, .page-footer {
-    background-color: #263238 !important;
-}
-
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
-}
-
-@media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #563e91 !important;
-    }
 }
 
 .rgba-gradient {
@@ -60,10 +50,6 @@
  .top-nav-collapse {
     background-color: #424f95 !important; 
     }
-
- .navbar:not(.top-nav-collapse) {
-     background: transparent !important;
-     }
 
 @media (max-width: 768px) {
      .navbar:not(.top-nav-collapse) {
